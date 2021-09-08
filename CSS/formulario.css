@@ -1,0 +1,116 @@
+* {
+    box-sizing:border-box;
+}
+body {
+    background:#181818 ;
+    font-family: 'Quicksand', sans-serif;
+    color: #fff;
+    padding: 0 1.5em 0 1.5em;
+
+}
+.tittle{
+    font-size: 40px;
+    text-align:center;
+}
+.description{
+    font-size: 25px;
+    text-align:center;
+}
+
+.content {
+    max-width:1170px;
+    margin-left:auto;
+    margin-right: auto;
+    padding:1.5em;
+
+}
+
+.pagina {
+    
+    font-size: 3em;
+}
+
+.formulario {
+    box-shadow: 0 0 20px 0 rgba(255, 255, 255, 0.3) ;
+    padding:1em;
+    background-color:#222222 ;
+    margin:0;
+}
+.formulario form button,
+.formulario form input,
+.formulario form select {
+    width:100%;
+    padding: 0.7em;
+    border:none;
+    background:none;
+    outline: none;
+    border-bottom: 1px solid #d63031;
+    color:#FFF;
+}
+.formulario form textarea{
+    width:100%;
+    padding: 0.7em;
+    background:none;
+    border: 1px solid #d63031;
+    color:#FFF;
+    outline: none;
+}
+.formulario form label{
+    font-size:25px;
+}
+.formulario form p{
+    font-size:25px;
+}
+.formulario form button{
+    background:#b70e21;
+    border:0;
+    text-transform:uppercase;
+    padding:1em;
+}
+.formulario form button:hover,
+.formulario form button:focus{
+    background: #d63031;
+    color:#000;
+    transition: background-color 1s easy-out;
+    outline:0;
+
+}
+.dropdown {
+    width:100%;
+    padding: 0.7em;
+    border:none;
+    background:gray;
+    outline: none;
+    border-bottom: 1px solid #d63031;
+    color:#000;
+}
+.options{
+    background:#000;
+}
+
+
+.formulario #checkbox1, .formulario #checkbox2, .formulario #checkbox3, .formulario #checkbox4,
+.formulario #checkbox5, .formulario #checkbox6, .formulario #checkbox7, .formulario #checkbox8,
+.formulario #checkbox9, .formulario #checkbox10, .formulario #checkbox11, .formulario #checkbox12 {
+    width:3%;
+    padding: 0.7em;
+    border:none;
+    background:none;
+    outline: none;
+    border-bottom: 1px solid #d63031;
+    color:#FFF;
+}
+.formulario form #radio {
+    width:3%;
+    padding:0.7em;
+    border:none;
+    background: none;
+    outline:none;
+    border-bottom:1px solid #d63031;
+    color:#FFF;
+
+}
+.footer{
+    font-size:15px;
+    text-align:center;
+}CDSACV 
