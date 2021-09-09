@@ -11,6 +11,7 @@ body {
 .tittle{
     font-size: 40px;
     text-align:center;
+    padding-top:10px;
 }
 .description{
     font-size: 25px;
@@ -113,4 +114,38 @@ body {
 .footer{
     font-size:15px;
     text-align:center;
-}CDSACV 
+}
+
+@media (max-width:480px){
+    body{
+        margin:0;
+        padding:0;
+    }
+    main {
+        width:100%;
+        padding:0px;
+        margin:0px;
+        
+    }
+
+    #tittle   {
+        
+        font-size:0.4em;
+        margin: 10px 10px 0px 10px;
+        
+        
+    }
+
+    #description {
+        font-size:0.25em;
+        margin: 10px 10px 15px 10px;
+        
+    }
+    
+    .formulario {
+      
+        padding:0;
+        
+    }
+    
+}
