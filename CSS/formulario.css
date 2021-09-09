@@ -149,10 +149,7 @@ body {
     
     }
     .formulario form textarea{
-        width:99%;
-        border: 1.5px solid #d63031;
         
-    }
-
-    
+        padding:0px;
+        
 }
