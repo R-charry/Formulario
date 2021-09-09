@@ -149,7 +149,7 @@ body {
     
     }
     .formulario form textarea{
-        
+        margin:0px;
         padding:0px;
     }
 }
